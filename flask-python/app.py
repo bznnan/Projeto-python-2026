@@ -15,7 +15,7 @@ pip install flask
 """
 
 from flask import Flask, render_template, request, redirect, url_for
-from seunome import config
+from guilherme import config
 
 app = Flask(__name__)
 
