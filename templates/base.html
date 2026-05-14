@@ -14,14 +14,14 @@
     <body>
         <div style="margin-top: 50px;" class="ui container">
 
-            <h1 class="ui center aligned header" style="color:#0026fc">Agenda Python</h1> 
+            <h1 class="ui center aligned header" style="color:#0026fc">Copa Do Mundo 2026</h1> 
             {% for lista in lista_dados %}
                 <h2 class="ui center aligned header" style="color:#073304">{{lista[0]}}</h2>                        
             {% endfor %}                  
             
             <form class="ui form" action="/add" method="post" id="formAdd">
                 <div class="field">
-                    <label>Dados pessoais</label>
+                    <label>Dados da Seleção</label>
                     <input type="text" name="Seleção"  placeholder="Nome da Seleção..."><br><br>
                     <input type="text" name="Continente"  placeholder="Continente..."><br><br>
                     <input type="text" name="Titulos" placeholder="Titulos Mundiais..."><br><br>                
